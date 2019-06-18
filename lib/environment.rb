@@ -1,6 +1,6 @@
 require_relative "./warriors/version"
 require_relative "./warriors/cli"
-require_relative "./warriors/scraper"
+require_relative "./warriors/warrior_scraper"
 
 
 module Warriors

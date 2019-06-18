@@ -1,7 +1,12 @@
 class CLI
 
     def run
-        puts "Testing"
+        intro
+        Scraper.scrape_team
     end
+
+    def intro  
+        puts "\n\nTesting\n\n\n"
+    end    
 
 end    
