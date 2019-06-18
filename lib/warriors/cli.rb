@@ -2,7 +2,7 @@ class CLI
 
     def run
         intro
-        Scraper.scrape_team
+        WarriorScraper.scrape_team
     end
 
     def intro  
