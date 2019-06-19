@@ -11,10 +11,28 @@ class WarriorScraper
             team_player = number.css(".nba-player-index__trending-item a:first").map{|item| item[:title]}
             team_position = number.css(".nba-player-index__details span[1]").map {|noko| noko.text}
             Team.new(team_player, team_position)
+            #binding.pry
+        end
+    end  
+    
+    
+            # def self.individual_player
+            #     team_player.each do |player|
+            #     Team.new(player)  
+            #     binding.pry        
+            #     end
+                
+            # end
 
-            
-        end    
-    end
+
+
+
+         
+         
+
 end
 
-class 
+
+            
+
+
