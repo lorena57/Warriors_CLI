@@ -2,5 +2,8 @@
 
 require_relative '../lib/environment'
 
+# app = CLI.new
+# app.run
+
 app = CLI.new
-app.run
+app.hit_it
