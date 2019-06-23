@@ -7,7 +7,7 @@ class Player
       @name = name
       @@all << self
   end 
-  
+   
   def self.all
     @@all
   end  
@@ -15,5 +15,7 @@ class Player
   def add_player_stats(stats_hash) #stat_hash comes from scrape_player
     stats_hash.each {|key, value| self.send(("#{key}="), value)}
   end
+
+  
 
 end 
